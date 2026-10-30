@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bioscript Center | Coming soon</title>
+  <meta name="description" content="Bioscript Center, by Qaly Health Shield. Our new website is coming soon.">
+  <meta name="theme-color" content="#FFFFFF">
+
+  <meta property="og:title" content="Bioscript Center">
+  <meta property="og:description" content="Our new website is coming soon.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.bioscriptcenter.ae/">
+  <meta property="og:image" content="https://www.bioscriptcenter.ae/BSC_Logo_Main_V1.0.png">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <style>
+    /* Brand colours (Qaly Health Shield / Bioscript Center guidelines) */
+    :root {
+      --white: #FFFFFF;
+      --ice: #E8F4FC;
+      --sky: #71B5E2;
+      --ink: #021A91;       /* dark blue: text and hairlines only */
+      --charcoal: #333A48;  /* body text */
+      --grey: #626C7C;      /* captions */
+      --orange: #F26B1D;    /* full stop only */
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body { height: 100%; }
+
+    body {
+      font-family: "Dubai", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+      background: var(--white);
+      color: var(--charcoal);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 48px 16px;
+    }
+
+    .logo {
+      display: block;
+      width: min(320px, 72vw);
+      height: auto;
+      margin-bottom: 48px;
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: clamp(40px, 7vw, 64px);
+      line-height: 1.1;
+      color: var(--ink);
+    }
+
+    .dot { color: var(--orange); }
+
+    .lead {
+      margin-top: 16px;
+      font-size: clamp(16px, 2.2vw, 20px);
+      line-height: 1.6;
+      max-width: 34ch;
+    }
+
+    .lead a {
+      color: var(--ink);
+      text-decoration: none;
+      border-bottom: 1px solid var(--sky);
+    }
+
+    .lead a:hover,
+    .lead a:focus-visible { border-bottom-color: var(--ink); }
+
+    footer {
+      background: var(--ice);
+      border-top: 2px solid var(--sky);
+      padding: 20px 16px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 300;
+      color: var(--grey);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="logo"
+         src="BSC_Logo_Main_V1.0.png"
+         width="1200" height="361"
+         alt="Bioscript Center, by Qaly Health Shield">
+
+    <h1>Coming soon<span class="dot">.</span></h1>
+
+    <p class="lead">
+      Our new website is on its way. Until then, email us at
+      <a href="mailto:info@bioscriptcenter.com">info@bioscriptcenter.com</a>
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2026 Bioscript Center &middot; by Qaly Health Shield
+  </footer>
+</body>
+</html>
